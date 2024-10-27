@@ -1,2 +1,1 @@
---Airthmatic operator
-
+Select * from Courses
