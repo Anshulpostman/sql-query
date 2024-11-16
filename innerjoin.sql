@@ -20,3 +20,6 @@ from purchasing.PurchaseOrderLines
 INNER JOIN purchasing.PurchaseOrders on PurchaseOrderLines.PurchaseorderID = PurchaseOrders.PurchaseorderID 
 INNER JOIN purchasing.SupplierCategories on purchasing.PurchaseOrders.SupplierID = purchasing.SupplierCategories.SupplierCategoryID
 ---- Three table inner join
+
+
+This is commit to changes
