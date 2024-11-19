@@ -9,3 +9,9 @@ Customers on Orders.CustomerID= Customers.CustomerID  and orders.shipname != 'Vi
 
 select Orders.OrderID, Orders.OrderDate, orders.ShipName,Customers.CompanyName,Customers.ContactName, Customers.Country from Orders left join
 Customers on Orders.CustomerID= Customers.CustomerID  where ShipName='Vins et alcools Chevalier'
+
+select Orders.OrderID, Orders.OrderDate, orders.ShipName,Customers.CompanyName,Customers.ContactName, Customers.Country from Orders left join
+Customers on Orders.CustomerID= Customers.CustomerID  where ShipName='Vins et alcools Chevalier'
+
+select Orders.OrderID, Orders.OrderDate, orders.ShipName,Customers.CompanyName,Customers.ContactName, Customers.Country from Orders left join
+Customers on Orders.CustomerID= Customers.CustomerID  where ShipName='Toms Spezialitäten'
