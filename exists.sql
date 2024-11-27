@@ -1,0 +1,1 @@
+select productname, UnitPrice from Products where exists (select companyname from Suppliers where Products.supplierid=Suppliers.SupplierID and UnitPrice<=20)
